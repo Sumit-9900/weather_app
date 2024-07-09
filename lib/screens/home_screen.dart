@@ -55,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
         builder: (context, snapshot) {
           if (snapshot.data != null) {
             final image = snapshot.data!.weather![0].icon;
-            double windSpeed = snapshot.data!.wind!.speed! * 3.6;
+            final double windSpeed = snapshot.data!.wind!.speed! * 3.6;
             final des = snapshot.data!.weather![0].description;
             var des1 = des![0].toUpperCase() + des.substring(1);
             return SafeArea(

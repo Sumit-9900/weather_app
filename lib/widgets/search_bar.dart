@@ -34,17 +34,8 @@ class _SearchbarState extends State<Searchbar> {
           maxHeight: 55,
         ),
         filled: true,
-        // fillColor: const Color.fromARGB(255, 231, 225, 224),
         fillColor: widget.color,
         prefixIcon: const Icon(Icons.search),
-        // suffixIcon: IconButton(
-        //   onPressed: widget.onClick,
-        //   icon: const Icon(
-        //     Icons.done,
-        //     color: Color.fromARGB(136, 0, 0, 0),
-        //     size: 35,
-        //   ),
-        // ),
         hintText: 'Search',
         border: OutlineInputBorder(
           borderSide: BorderSide.none,
